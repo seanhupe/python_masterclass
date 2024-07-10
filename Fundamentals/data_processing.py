@@ -3,6 +3,7 @@ sentence = input("Enter a short sentence: ").upper()
 print(sentence)
 
 
+
 # 2
 paragraph = input("Enter a paragraph: ")
 # split the paragraph into words

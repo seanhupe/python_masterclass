@@ -4,7 +4,6 @@ import math
 circle_radius = int(input("Enter radius of the circle: "))
 circle_area = math.pi * (circle_radius * circle_radius)
 
-# :.2f limits the calculation to 2 decimal places
 # print(f"The area of the circle with radius {circle_radius} is: {circle_area:.2f}")
 print(f"The area of the circle with radius {circle_radius} is: {round(circle_area, 2)}")
 

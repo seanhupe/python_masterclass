@@ -7,11 +7,11 @@ def turn(direction):
 
 
 def start_engine():
-    print("starting engine")
+    print("Starting engine")
 
 
 def stop_engine():
-    print("stopping engine")
+    print("Stopping engine")
 
 
 start_engine()

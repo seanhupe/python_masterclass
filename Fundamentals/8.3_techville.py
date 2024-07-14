@@ -23,7 +23,7 @@ def stop_engine():
 start_engine()
 
 # 2. Ask user for their desired destination
-destination = input("What is your desired destination? ").lower()
+destination = input("What is your desired destination? ").lower().strip()
 
 # 3. If destination is "library", move forward, turn left, announce arrival
 if destination == "library":

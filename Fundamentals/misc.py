@@ -1,6 +1,26 @@
-print(True)
-print(False)
-x = round(3.6)
-print(x)
+def dollarizer(word):
+    return word.replace('c', 'g')
 
-print("Hello")
+word = "success"                        87  \
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

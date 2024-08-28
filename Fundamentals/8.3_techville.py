@@ -82,6 +82,6 @@ elif destination in ["hospital", "mall", "airport", "university", "stadium"]:
 
 
 else:
-    print("That destination is unavailable.")
+    print("That destination doesn't exit.")
 
 stop_engine()

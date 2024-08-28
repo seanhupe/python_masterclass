@@ -17,7 +17,7 @@ def stop_engine():
 start_engine()
 move_forward()
 
-destination = input("Where do you want to go? ")
+destination = input("Where do you want to go? ").lower()
 
 if destination == "school":
     turn("right")

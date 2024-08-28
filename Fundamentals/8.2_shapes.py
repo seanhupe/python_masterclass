@@ -1,7 +1,10 @@
+#1.---------------------------------------------------------------------------------------
+"""Define the rectangle, circle, and triangle area calculations as functions"""
 import math
 
-
 # https://docs.python.org/3/library/math.html
+
+
 def circle_area(radius):
     area = math.pi * radius ** 2
     return area
@@ -13,6 +16,7 @@ print(f"The area of the circle with radius {radius} is: {round(area, 2)}")
 
 
 #---------------------------------------------------------------------------------------
+
 
 def triangle_area(base, height):
     area = ((triangle_height * triangle_base) // 2)
@@ -46,9 +50,11 @@ print(f"The area of the rectangle with length {rect_length} and breadth {rect_wi
 # {round(triangle_area, 2)}
 # {round(rect_area, 2)}
 
-#---------------------------------------------------------------------------------------
-# Function named square_parameter that takes side length of a Square and returns the perimeter
-# P = 2(l + w)
+
+#2.--------------------------------------------------------------------------------------
+"""Function named square_parameter that takes side length of a Square and returns 
+the perimeter P = 2(l + w)"""
+
 
 def square_perimeter(side_length):
     perimeter = 4 * side_length
@@ -61,9 +67,9 @@ perimeter = square_perimeter(side_length)
 print(f"The perimeter of the square with side length {side_length} is: {round(perimeter, 2)}")
 
 
-#---------------------------------------------------------------------------------------
-# Function named circle_details that takes radius and prints both circumference & area
-# C= 2πr
+#3. ---------------------------------------------------------------------------------------
+"""Function named circle_details that takes radius and prints both circumference & area C= 2πr"""
+
 
 def circle_details(radius):
     area = math.pi * radius ** 2
@@ -78,10 +84,10 @@ radius = float(input("Enter the radius of the circle: "))
 circle_details(radius)
 
 
-#---------------------------------------------------------------------------------------
-# Function named geometry that takes the side length of a square and the radius of a circle.
-# Should print which shape has a larger perimeter/circumference & which has larger area
-#
+#4.---------------------------------------------------------------------------------------
+"""Function named geometry that takes the side length of a square and the radius of a circle.
+Should print which shape has a larger perimeter/circumference & which has larger area"""
+
 
 def geometry(side_length, radius):
     square_perimeter = 4 * side_length

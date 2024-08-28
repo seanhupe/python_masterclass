@@ -1,3 +1,4 @@
+# 1
 def dollarizer(word):
     return word.replace('s', "$")
 
@@ -8,7 +9,7 @@ result = dollarizer(word)
 print(result)  # Output: $ucce$$
 
 
-#-----------------------------------------------------------------
+# 2-----------------------------------------------------------------
 def eurizer(word2):
     return word2.replace('e', "€")
 

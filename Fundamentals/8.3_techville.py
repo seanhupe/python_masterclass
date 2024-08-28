@@ -1,3 +1,8 @@
+# Assignment 4 - Techville
+"""In this exercise, you will build a navigation system for a self-driving car in the fictitious city of Techville.
+Techville has a maze-like road network, and your task is to get the car to its destination based on user input"""
+
+
 def start_engine():
     print("Starting engine")
 
@@ -25,7 +30,7 @@ start_engine()
 # 2. Ask user for their desired destination
 destination = input("What is your desired destination? ").lower().strip()
 
-# 3. If destination is "library", move forward, turn left, announce arrival
+# 3. Begin navigation: If destination is "library", move forward, turn left, announce arrival
 if destination == "library":
     move_forward()
     turn("left")

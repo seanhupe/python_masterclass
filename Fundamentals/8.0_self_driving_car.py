@@ -36,7 +36,3 @@ elif destination == "restaurant":
     print("We arrived at restaurant!")
 else:
     print("You aren't going anywhere!")
-
-
-
-

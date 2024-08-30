@@ -31,8 +31,27 @@ print(student.values())
 
 #-----------------------------------------------------------------------------
 # 3. List of Dictionaries
+# create list of Dicts: each Dict represents a Book and has the following keys: title, author, year
+books = [
+    {
+        "title": "Find a Damn Job",
+        "author": "Sean Hupe",
+        "year": "2024",
+    }
+]
+print(books)
 
+# Add a book to the list
+books.append({"title": "Moby Dick", "author": "Herman Melville", "year": 1851})
+# books.append({"title": "Pride and Prejudice", "author": "Jane Austen", "year": 1813})
+# books.append({"title": "IT", "author": "Steven King", "year": 1978})
+print(books)
 
+# Print the title of the second book in the list
+
+# Iterate over the list and print out each Book Title and Author
+for book in books:
+    print(f"Title: {book['title']}, author: {book['author']}")
 
 #-----------------------------------------------------------------------------
 # 4. Dictionary containing a List

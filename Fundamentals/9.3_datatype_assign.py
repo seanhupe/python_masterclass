@@ -58,7 +58,7 @@ for book in books:
 # 4. Dictionary containing a List
 courses = {
     "math": ["Billy", "Timmy", "Shithead"],
-    "history": ["Frank", "Skip", "Jim"],
+    "history": ["Frank", "Rick", "Jim"],
     "chemistry": ["David", "John", "Bob"],
 }
 

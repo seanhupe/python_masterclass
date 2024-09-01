@@ -74,5 +74,5 @@ print(courses["history"])
 print(courses["chemistry"])
 
 # Add a new course "physics" with 3 students
-courses["physics"] = ["Paul", "Quincy", "Rachel"]
+courses["physics"] = ["Paul", "Quincy", "Chris"]
 print(courses)

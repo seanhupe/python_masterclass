@@ -17,6 +17,7 @@
 #
 # for number in lst:
 #     print(number * 2)
+from itertools import count
 
 #-----------------------------------------------------------------------------------------
 
